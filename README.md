@@ -1,7 +1,7 @@
 # CRCNet for image deblurring.
 
 CRCNet is a non-blind deblurring network. It abstract iterative residues and finally concatenate and integral them. 
-![Network Structure](https://github.com/lisiyaoATbnu/crcnet/edit/master/network.png)
+![Network Structure](./network.png)
 
 This network could handle not only ground-truth and noise-free blur, but also kernel errors and image noise. This can be achieved by adding random noises into generated blur patches and blur kernels. The strengths of noises can be adjusted in "Parameters" submodule in each demo. For all real-world cases in the paper, strength values of "nstr" and "knstr" are 2e-3.
 
